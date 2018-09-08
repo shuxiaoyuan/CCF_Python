@@ -23,7 +23,7 @@ num = 1;
 winner = firstp
 pre = persons
 while winner.next != winner:
-    if num % k == 0 or str(num)[-1] == str(k):
+    if num % k == 0 or num % 10 == k:
         pre.next = winner.next
     else:
         pre = pre.next
